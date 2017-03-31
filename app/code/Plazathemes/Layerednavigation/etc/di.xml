@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 PlazaThemes.com. All rights reserved.
+ *
+ * @author PlazaThemes Team <contact@plazathemes.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <preference for="Magento\Swatches\Block\LayeredNavigation\RenderLayered" type="Plazathemes\Layerednavigation\Block\Swatches\RenderLayered" />
+    <preference for="Magento\Theme\Block\Html\Pager" type="Plazathemes\Layerednavigation\Block\Html\Pager" />
+    <preference for="Magento\Catalog\Block\Product\ProductList\Toolbar" type="Plazathemes\Layerednavigation\Block\Product\ProductList\Toolbar" />
+    <preference for="Magento\Catalog\Controller\Category\View" type="Plazathemes\Layerednavigation\Controller\Category\View" />
+    <preference for="Magento\CatalogSearch\Controller\Result\Index" type="Plazathemes\Layerednavigation\Controller\CatalogSearch\Result\Index" />
+</config>

@@ -1,0 +1,125 @@
+<?php $block->renderFileLessToCss(); ?>
+<header id="lucian_header123" class="header-container">
+	<div class="top-link">
+		<div class="container">
+			<div class="container-inner">
+				<div class="row">
+					<div class="col-sm-7 col-xs-12">
+						<?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('header_phone')->toHtml();?>
+					</div>
+					<div class="col-sm-5 col-xs-12">
+						<?php echo $this->getChildHtml("store_language"); ?>
+						<?php echo $this->getChildHtml("currency"); ?>
+						<?php echo $this->getChildHtml("header.links"); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="header-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-left col-md-3 col-sm-4 col-xs-7">
+					<div class="mobile-bar-icon"><span><?php /* @escapeNotVerified */ echo __('mobile icon'); ?></span></div>
+					<div class="logo-home">
+						<?php echo $this->getChildHtml("logo"); ?>
+					</div>
+					
+				</div>
+				
+				<div class="col-right col-md-9 col-sm-8 col-xs-5">
+					<?php echo $this->getChildHtml("minicart");?>
+					<div class="miniwishlist"><a href="<?php  echo $this->helper('Magento\Wishlist\Helper\Data')->getListUrl(); ?>"><span class="qty"><?php echo $this->helper('Magento\Wishlist\Helper\Data')->getItemCount(); ?></span></a></div>
+					
+					<?php echo $this->getChildHtml("top.search"); ?>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="top-menu">
+		<div class="container">
+			<div class="container-inner">
+				<div class="row">
+					<div class="megamenu col-sm-3 col-xs-12">
+						<?php echo $this->getChildHtml("verticalmegamenu"); ?>
+					</div>
+					<div class="hozmenu col-sm-9 col-xs-12">
+						<?php echo $this->getChildHtml("hozmegamenu_top"); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php echo $this->getChildHtml("Banner"); ?>
+</header>
+<div class="mobile-bar-content">
+	<div class ="mobile-bar-close"><?php /* @escapeNotVerified */ echo __('Close'); ?></div>
+	<div class="content-inner">	
+		<ul class = "tabs-mobile">
+			<li class="item item-menu"><?php /* @escapeNotVerified */ echo __('Menu'); ?></li>
+			<li class="item item-account"><?php /* @escapeNotVerified */ echo __('Account'); ?></li>
+			<li class="item item-setting"><?php /* @escapeNotVerified */ echo __('Setting'); ?></li>
+		</ul>
+		<div class="tabs-content-mobile tabs-menu">
+			<?php echo $this->getChildHtml("mobilemenu"); ?>
+		</div>
+		<div class="tabs-content-mobile tabs-account" style="display:none;">
+			<?php echo $this->getChildHtml("header.links"); ?>
+		</div>
+		<div class="tabs-content-mobile tabs-setting" style="display:none;">
+			<?php echo $this->getChildHtml("store_language_mobile"); ?>
+			<?php echo $this->getChildHtml("currency_mobile"); ?>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+require(["jquery"], function($){
+	$(document).ready(function(){
+		<!-- show, hide mobile bar content -->
+		$(".mobile-bar-icon").click(function(){
+			$(".mobile-bar-content").addClass("open");
+		});
+		$(".mobile-bar-close").click(function(){
+			$(".mobile-bar-content").removeClass("open");
+		});
+		
+		<!-- choose tabs-->
+		$(".tabs-mobile .item-menu").addClass("active");
+		$(".tabs-mobile .item").click(function(){
+			$(".tabs-mobile .item").removeClass("active");
+			$(this).addClass("active");
+		});
+		$(".tabs-mobile .item-menu").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-menu").css("display","block");
+		});
+		$(".tabs-mobile .item-account").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-account").css("display","block");
+		});
+		$(".tabs-mobile .item-setting").click(function(){
+			$(".tabs-content-mobile").css("display","none");
+			$(".tabs-setting").css("display","block");
+		});
+		
+	});
+	
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 250) {
+			$('.top-menu').addClass("fix-header");
+			$('.hozmenu').addClass("fix-header");
+			$('.hozmenu .nav-container').addClass("container");
+			$('.header-content').addClass("fix-header");
+			} else {
+			$('.top-menu').removeClass("fix-header");
+			$('.hozmenu').removeClass("fix-header");
+			$('.hozmenu .nav-container').removeClass("container");
+			$('.header-content').removeClass("fix-header");
+		}
+		
+	});
+});
+</script>
+

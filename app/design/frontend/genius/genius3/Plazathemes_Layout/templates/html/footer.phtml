@@ -1,0 +1,44 @@
+<footer class="footer-container">
+	
+	<div class="footer-top">
+		<div class="container">
+			<?php echo $this->getChildHtml('footer_static')?>
+			
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-xs-12">
+					<?php echo $this->getChildHtml('footer.copyright')?>
+				</div>
+				<div class="col-sm-2 col-xs-12">
+					<?php echo $this->getChildHtml('footer.store_switcher')?>
+				</div>
+				<div class="col-sm-5 col-xs-12">
+					<?php echo $this->getChildHtml('social')?>
+				</div>
+			</div>
+			<div id="back_top">
+				<a href="#back-top"><span><?php /* @escapeNotVerified */ echo __('top'); ?></span></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+			
+	require(["jquery"], function($){
+
+	   $(window).scroll(function() {
+			if($(this).scrollTop() > 300) {
+				$('#back_top').fadeIn();   
+			} else {
+				$('#back_top').fadeOut();
+			}
+		});
+		   $('#back_top').click(function() {
+			$('body,html').animate({scrollTop:0},500);
+		}); 
+	   
+	});
+</script>

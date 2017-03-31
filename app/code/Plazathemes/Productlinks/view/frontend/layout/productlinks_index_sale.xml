@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+* Copyright © 2015 PlazaThemes.com. All rights reserved.
+
+* @author PlazaThemes Team <contact@plazathemes.com>
+*/
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	<head><title>Sale Products</title></head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Plazathemes\Productlinks\Block\Productsale" name="productsale" template="productsale.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>

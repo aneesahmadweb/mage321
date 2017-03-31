@@ -1,0 +1,38 @@
+<?php
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\CatalogWidget\Block\Product\Widget\Conditions $block */
+
+$element = $block->getElement();
+$fieldId = $element->getHtmlContainerId() ? ' id="' . $block->escapeHtmlAttr($element->getHtmlContainerId()) . '"' : '';
+$fieldClass = 'field admin__field field-' . $block->escapeHtmlAttr($element->getId()) . ' '
+    . $block->escapeHtmlAttr($element->getCssClass());
+$fieldClass .= $element->getRequired() ? ' required' : '';
+$fieldAttributes = $fieldId . ' class="' . $fieldClass . '" '
+    . $block->getUiId('form-field', $block->escapeHtmlAttr($element->getId()));
+?>
+<div<?php /* @noEscape */ echo $fieldAttributes ?>>
+    <?php echo $element->getLabelHtml() ?>
+    <div class="control admin__field-control">
+        <div class="rule-tree">
+            <div class="rule-tree-wrapper">
+                <?php echo $block->getInputHtml() ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    require([
+        "Magento_Rule/rules",
+        "prototype"
+    ], function(VarienRulesForm){
+        window.<?php echo $block->escapeJs($block->getHtmlId()) ?> = new VarienRulesForm('<?php echo $block->escapeJs($block->getHtmlId()) ?>', '<?php echo $block->escapeUrl($block->getNewChildUrl()) ?>');
+    });
+</script>

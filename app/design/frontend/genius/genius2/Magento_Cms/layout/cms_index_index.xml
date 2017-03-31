@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.box">
+			<block class="Plazathemes\Bannerslider\Block\Bannerslider" name="Banner" as="Banner" template="bannerslider.phtml"/>	
+        </referenceContainer>
+		<move element="Banner" destination="lucian_header" after="-"/>
+		<referenceContainer name="main.content">
+			<block class="Magento\Cms\Block\Block" name="static_digital" before="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">static_digital_genius1</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Framework\View\Element\Template" name="timer_bestseller" template="Magento_Cms::timer_bestseller.phtml" after="static_digital"/>
+			<block class="Magento\Cms\Block\Block" name="corporate" after="timer_bestseller">
+				<arguments>
+					<argument name="block_id" xsi:type="string">corporate</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="category_tab" after="corporate">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_genius2</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="static_electronic" after="category_tab">
+				<arguments>
+					<argument name="block_id" xsi:type="string">static_electronic_genius1</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Framework\View\Element\Template" name="module_group" template="Magento_Cms::module_group.phtml" after="static_fashion"/>
+			<block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" after="module_group" template="subscribe.phtml"/>
+		</referenceContainer> 
+    </body>
+</page>

@@ -1,0 +1,13 @@
+<?php
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Framework\View\Element\Template $block */
+
+?>
+<p><?php echo $block->escapeHtml(__('Your current currency is: %1.', $currency->getCode())) ?></p>
+<p><a href="<?php echo $block->escapeUrl($block->getBaseUrl()); ?>" class="action continue"><span><?php echo $block->escapeHtml(__('Continue')) ?></span></a></p>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 PlazaThemes.com. All rights reserved.
+ *
+ * @author PlazaThemes Team <contact@plazathemes.com>
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Plazathemes_Layerednavigation::css/ajax_navigation.css" ifconfig="ajaxlayerednavigation/general/enabled" />
+        <link src="Plazathemes_Layerednavigation::js/ajax_navigation.js" ifconfig="ajaxlayerednavigation/general/enabled" />
+        <link src="Plazathemes_Layerednavigation::js/ajax_toolbar.js" ifconfig="ajaxlayerednavigation/general/enabled" />
+    </head>
+    <body>
+        <referenceBlock name="catalog.leftnav">
+            <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layer/view.phtml</argument>
+            </action>
+            <action method="setUsePriceSlider" ifconfig="ajaxlayerednavigation/general/price_slider">
+                <argument name="value" xsi:type="boolean">true</argument>
+            </action>
+            <block class="Plazathemes\LayeredNavigation\Block\LayeredNavigation" name="layered.price.slider" as="layered_price_slider">
+                <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                    <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layer/price/priceslider.phtml</argument>
+                </action>
+            </block>
+            <block class="Plazathemes\LayeredNavigation\Block\LayeredNavigation" name="layered.price.js" as="layered_price_js">
+                <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                    <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layer/price/js.phtml</argument>
+                </action>
+            </block>
+        </referenceBlock>
+
+        <referenceBlock name="catalog.navigation.state">
+            <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layer/state.phtml</argument>
+            </action>
+        </referenceBlock>
+
+        <referenceBlock name="catalog.navigation.renderer">
+            <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layer/filter.phtml</argument>
+            </action>
+        </referenceBlock>
+
+        <referenceContainer name="page.wrapper">
+            <block class="Plazathemes\LayeredNavigation\Block\LayeredNavigation" name="layered.loading.background" as="layered_loading_background" after="-">
+                <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                    <argument name="template" xsi:type="string">Plazathemes_Layerednavigation::layerbackground.phtml</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,13 @@
+<?php //if($this->customerLoggedIn()): ?>
+    <li class="customer welcome customer-welcome">
+        <span class="customer name">
+            <span><?php echo $this->getCustomerName(); ?></span>
+            <span class="account"><?php echo __('Account')?><i class="fa fa-angle-down">&nbsp;</i></span>
+        </span>
+        <?php if($this->getChildHtml()):?>
+        <div class="customer menu customer-menu">
+            <?php echo $this->getChildHtml();?>
+        </div>
+        <?php endif; ?>
+    </li>
+<?php //endif; ?>

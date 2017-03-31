@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<ma_genius>
+    <blocks>
+		<block>
+            <title>Contact us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                    <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Corporate Genius12</title>
+            <identifier>corporate</identifier>
+            <content>
+                    <![CDATA[
+						<div class="ma-corporate-about">
+						<div class="container">
+						<div class="container-inner">
+						<div class="row">
+						<div class="col col-md-4 col-sm-4 col-xs-12">
+						<div class="block-wrapper support">
+						<div class="text-des">
+						<h3>SUPPORT 24/7</h3>
+						<p>We support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						<div class="col col-md-4 col-sm-4 col-xs-12 ">
+						<div class="block-wrapper return">
+						<div class="text-des">
+						<h3>FREE RETURN</h3>
+						<p>30 days money back guarantee!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col col-md-4 col-sm-4 col-xs-12">
+						<div class="block-wrapper ship">
+						<div class="text-des">
+						<h3>FREE shipping</h3>
+						<p>Free shipping on all order</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static" data-mage-init="{&quot;accordion&quot;:{&quot;openedState&quot;: &quot;active&quot;, &quot;collapsible&quot;: true, &quot;active&quot;: false, &quot;multipleCollapsible&quot;: false}}">
+						<div class="row">
+						<div class="f-col f-col-1 col-sm-6 col-md-3 col-xs-12" data-role="collapsible">
+						<div class="footer-static-title" data-role="title">
+						<h3>Contact info</h3>
+						</div>
+						<div class="footer-static-content" data-role="content">
+						<div class="footer-contact">
+						<ul>
+						<li><em class="fa fa-home"></em>123 Main Street, CA 12345 USA.</li>
+						<li><em class="fa fa-phone"></em>(800) 123 456 789</li>
+						<li><em class="fa fa-envelope-o"></em>Contact@plazathemes.com</li>
+						</ul>
+						<div class="footer-payment"><a href="#"><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+						<div class="f-col f-col-4 col-sm-6 col-md-3 col-xs-12" data-role="collapsible">
+						<div class="footer-static-title" data-role="title">
+						<h3>My Account</h3>
+						</div>
+						<div class="footer-static-content" data-role="content">
+						<ul>
+						<li class="first"><a href="#">My Account</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">My Cart</a></li>
+						<li><a href="#">Wishlist</a></li>
+						<li><a href="#">Userinfor</a></li>
+						<li class="last"><a href="#">Checkout</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col-2 col-sm-6 col-md-3 col-xs-12" data-role="collapsible">
+						<div class="footer-static-title" data-role="title">
+						<h3>INFORMATION</h3>
+						</div>
+						<div class="footer-static-content" data-role="content">
+						<ul>
+						<li class="first"><a href="#">Contact us</a></li>
+						<li><a href="#">Discount</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Site map</a></li>
+						<li><a href="#">About us</a></li>
+						<li class="last"><a href="#">Custom service</a></li>
+						</ul>
+						</div>
+						</div>
+						<div class="f-col f-col-3 col-sm-6 col-md-3 col-xs-12" data-role="collapsible">
+						<div class="footer-static-title" data-role="title">
+						<h3>Customer Service</h3>
+						</div>
+						<div class="footer-static-content" data-role="content">
+						<ul>
+						<li class="first"><a href="#">About us</a></li>
+						<li><a href="#">Deliveru information</a></li>
+						<li><a href="#">Compensation First</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Terms &amp; conditions</a></li>
+						<li class="last"><a href="#">Support 24/7</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+			
+		<block>
+			<title>Static Menu Right</title>
+			<identifier>pt_menu_idcat_220_right</identifier>
+			<content>
+					<![CDATA[
+						<div class="banner-static static-menu">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/img-menu.jpg"}}" alt="img" /></a></div>
+						</div>
+					]]>
+			</content>
+			<is_active>1</is_active>
+		</block>
+		
+		<block>
+            <title>Static Digital Genius12</title>
+            <identifier>static_digital_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-digital">
+						<div class="container">
+						<div class="row">
+						<div class="col col-sm-4 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads1-digital-genius1.jpg"}}" alt="image" /></a></div>
+						</div>
+						<div class="col col-sm-4 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads2-digital-genius1.jpg"}}" alt="image" /></a></div>
+						</div>
+						<div class="col col-sm-4 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads3-digital-genius1.jpg"}}" alt="image" /></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Electronic Genius12</title>
+            <identifier>static_electronic_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-electronic">
+						<div class="container">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads-electronic-genius1.jpg"}}" alt="image" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Electronic Genius1</title>
+            <identifier>category_tab_electronic_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Electronic & accessories" identify="cat_electronic" category_id="251,252,253,254" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Fashion Genius1</title>
+            <identifier>static_fashion_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-fashion">
+						<div class="container">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads-fashion-genius1.jpg"}}" alt="image" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Header Phone Genius</title>
+            <identifier>header_phone</identifier>
+            <content>
+                    <![CDATA[
+						<div class="header-phone">
+						<p class="phone"><span>call us:</span>(+888) 123 456</p>
+						<p class="email"><span>email:</span>contact@plazathemes.com</p>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Furniture Genius1</title>
+            <identifier>static_furniture_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-furniture">
+						<div class="container">
+						<div class="row">
+						<div class="col col-sm-6 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads1-furniture-genius1.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="col col-sm-6 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads2-furniture-genius1.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Fashion Genius1</title>
+            <identifier>category_tab_fashion_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="fashion & Accessories" identify="cat_fashion" category_id="231,232,233,234" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Furniture Genius1</title>
+            <identifier>category_tab_furniture_genius1</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Furnitured & deco" identify="cat_furnitured" category_id="287,267,288,268" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Social</title>
+            <identifier>social</identifier>
+            <content>
+                    <![CDATA[
+						<ul class="link-follow">
+						<li class="first"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+						<li><a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a></li>
+						<li><a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/plazathemes1"><span>facebook</span></a></li>
+						<li><a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+						<li><a class="flickr fa fa-flickr" title="Flickr" href="https://www.youtube.com/user/plazathemes"><span>Flickr </span></a></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Banner Right</title>
+            <identifier>banner_right</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-right">
+						<div class="image"><a href="#"> <img src="{{media url="wysiwyg/banner-right.jpg"}}" alt="image" /> </a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links124</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="http://www.plazathemes.com/">all stores </a></li>
+						<li><a href="{{store url="productlinks/index/latest"}}">new arrials </a></li>
+						<li><a href="{{store url="productlinks/index/sale"}}">hot sale </a></li>
+						<li class="last"><a href="{{store url="productlinks/index/bestseller"}}">best offers</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab  Genius2</title>
+            <identifier>category_tab_genius2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Top selling" identify="cat_topselling" category_id="251,253,220,221,225,226,227" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="2" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Top Genius3</title>
+            <identifier>static_top_genius3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-top">
+						<div class="container">
+						<div class="row">
+						<div class="col-sm-3 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads1-top-genius3.jpg"}}" alt="image" /></a></div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads2-top-genius3.jpg"}}" alt="image" /></a></div>
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads3-top-genius3.jpg"}}" alt="image" /></a></div>
+						</div>
+						<div class="col-sm-5 col-xs-12">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads4-top-genius3.jpg"}}" alt="image" /></a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Bottom Genius3</title>
+            <identifier>static_bottom_genius3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-bottom">
+						<div class="container">
+						<div class="row">
+						<div class="col-sm-4 col-xs-12">
+						<div class="image"><a href="{{store url='office.html'}}"> <img src="{{media url="wysiwyg/ads1-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">office</span></div>
+						</div>
+						<div class="image"><a href="{{store url='bedroom.html'}}"> <img src="{{media url="wysiwyg/ads2-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">bedroom</span></div>
+						</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+						<div class="image"><a href="#"> <img src="{{media url="wysiwyg/ads3-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">lighting</span></div>
+						</div>
+						<div class="image"><a href="{{store url='dining-room.html'}}"> <img src="{{media url="wysiwyg/ads4-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">dining room</span></div>
+						</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+						<div class="image"><a href="{{store url='sofa.html'}}"> <img src="{{media url="wysiwyg/ads5-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">sofa</span></div>
+						</div>
+						<div class="image"><a href="{{store url='armchairs.html'}}"> <img src="{{media url="wysiwyg/ads6-bottom-genius3.jpg"}}" alt="image" /> </a>
+						<div class="text"><span class="text-content">chair</span></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links Genius3</title>
+            <identifier>pt_menu_links_genius3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu pt_menu_link">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="{{store url="blog"}}">blog</a></li>
+						<li><a href="http://www.plazathemes.com/">all stores </a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Top Genius3</title>
+            <identifier>category_tab_top_genius3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Bedroom" identify="cat_bedroom" category_id="82,88,89,91" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Bottom Genius3</title>
+            <identifier>category_tab_bottom_genius3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Livingroom" identify="cat_livingroom" category_id="100,101,102,103" items_default="5" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Top Genius4</title>
+            <identifier>category_tab_top_genius4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Bedroom" identify="cat_bedroom" category_id="82,88,89,91" items_default="4" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Middle Genius4</title>
+            <identifier>category_tab_middle_genius4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Dining room" identify="cat_diningroom" category_id="120,121,122,125" items_default="4" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Category Tab Bottom Genius4</title>
+            <identifier>category_tab_bottom_genius4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="cat-bottom">{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Livingroom" identify="cat_livingroom" category_id="100,101,102,103" items_default="4" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Top Genius4</title>
+            <identifier>static_top_genius4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static static-top">
+						<div class="row">
+						<div class="col">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads4-top-genius3.jpg"}}" alt="image" /></a></div>
+						</div>
+						<div class="col">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads2-top-genius3.jpg"}}" alt="image" /></a></div>
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/ads3-top-genius3.jpg"}}" alt="image" /></a></div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Banner Left Genius4</title>
+            <identifier>banner_left</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-static banner-left">
+						<div class="image"><a href="#"><img src="{{media url="wysiwyg/banner-right.jpg"}}" alt="image" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</ma_genius>
+

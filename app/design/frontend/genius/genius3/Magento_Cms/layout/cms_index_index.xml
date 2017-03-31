@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.top">
+			<block class="Plazathemes\Bannerslider\Block\Bannerslider" name="Banner" template="bannerslider.phtml"/>	
+        </referenceContainer>
+		<referenceContainer name="main.content">
+			<block class="Magento\Cms\Block\Block" name="static_top" before="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">static_top_genius3</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="category_tab_top" after="static_top">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_top_genius3</argument>
+				</arguments>
+			</block>
+			<block class="Plazathemes\Pricecountdown\Block\Pricecountdown" ifconfig="pricecountdown/general/enabled" after="category_tab_top" name="pricecountdown" template="saleslider.phtml" />
+			<block class="Magento\Cms\Block\Block" name="category_tab_bottom" after="pricecountdown">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_bottom_genius3</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="static_bottom" after="category_tab_bottom">
+				<arguments>
+					<argument name="block_id" xsi:type="string">static_bottom_genius3</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Framework\View\Element\Template" name="newsletter_group" template="Magento_Cms::newsletter_group.phtml" after="static_bottom"/>
+			<block class="Plazathemes\Blog\Block\Sidebar\Recent" name="blog.sidebar.recent" after="newsletter_group"  template="sidebar/slider.phtml" />
+			<block class="Magento\Cms\Block\Block" name="corporate" after="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">corporate</argument>
+				</arguments>
+			</block>
+			<referenceBlock name="Brand" remove="1"/>
+		</referenceContainer> 
+    </body>
+</page>

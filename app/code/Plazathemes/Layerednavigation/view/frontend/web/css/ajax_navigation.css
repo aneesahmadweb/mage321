@@ -1,0 +1,8 @@
+/*
+ * Copyright © 2016 PlazaThemes.com. All rights reserved.
+ *
+ * @author PlazaThemes Team <contact@plazathemes.com>
+ */
+
+.loading-background { display: none; background-color: rgba(0,0,0,0.35); top: 0; left: 0; right: 0; bottom: 0; margin: auto; position: fixed; z-index: 900; }
+.loading-image { display: none; position: fixed; top: 50%; left: 0; right: 0; bottom: 0; text-align: center; z-index: 910; margin: auto; }

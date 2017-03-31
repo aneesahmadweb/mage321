@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+layout="2columns-right"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/pa
+ge_configuration.xsd">
+<head>
+<title>Helloworld Landingspage</title>
+        <css src="css/mynewcss.css" />
+        <script src="js/myjs.js"/>
+</head>
+
+ <body>
+ <referenceContainer name="content">
+     <block class="Packt\HelloWorld\Block\Landingspage" 
+     name="landingsblock" template="Packt_HelloWorld::landingspage.phtml" />
+   </referenceContainer>
+   
+   <referenceContainer name="content">
+     <block class="Packt\HelloWorld\Block\Lastpage" 
+     name="landingsbloc" template="Packt_HelloWorld::lastpage.phtml" />
+   </referenceContainer>
+
+    <referenceContainer name="content">
+     <block class="Packt\HelloWorld\Block\Newproducts" 
+     name="new_products" template="Packt_HelloWorld::newproducts.phtml" />
+   </referenceContainer>
+   
+  
+
+ </body>
+</page>

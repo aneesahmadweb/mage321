@@ -1,0 +1,28 @@
+<?php
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+<div class="page-actions">
+    <div class="page-actions-inner">
+        <div class="page-actions-buttons">
+            <?php echo $block->getChildHtml(); ?>
+
+            <form class="action-element"
+                  action="<?php echo $block->escapeUrl($block->getUrl('*/*/refreshStatistics')); ?>"
+                  method="post">
+                <input
+                    name="form_key"
+                    type="hidden"
+                    value="<?php echo $block->escapeHtmlAttr($block->getFormKey()); ?>"/>
+                <button
+                    class="action-primary"
+                    type="submit"
+                    title="<?php echo $block->escapeHtmlAttr(__('Reload Data')) ?>">
+                    <?php echo $block->escapeHtml(__('Reload Data')) ?>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

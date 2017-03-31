@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.top">
+			<block class="Plazathemes\Bannerslider\Block\Bannerslider" name="Banner" template="bannerslider.phtml"/>	
+        </referenceContainer>
+		<referenceContainer name="main.content">
+			<block class="Magento\Cms\Block\Block" name="corporate" before="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">corporate</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Framework\View\Element\Template" name="digital" template="Magento_Cms::digital.phtml" after="corporate"/>
+			<block class="Magento\Framework\View\Element\Template" name="electronic" template="Magento_Cms::electronic.phtml" after="digital"/>
+			<block class="Magento\Framework\View\Element\Template" name="fashion" template="Magento_Cms::fashion.phtml" after="electronic"/>
+			<block class="Magento\Framework\View\Element\Template" name="furniture" template="Magento_Cms::furniture.phtml" after="fashion"/>
+			<block class="Magento\Framework\View\Element\Template" name="bloggroup" template="Magento_Cms::blog_group.phtml" after="furniture"/>
+		</referenceContainer> 
+    </body>
+</page>

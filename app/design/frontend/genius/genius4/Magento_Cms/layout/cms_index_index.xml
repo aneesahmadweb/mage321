@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.top">
+			<block class="Magento\Framework\View\Element\Template" name="bannerslider" template="Magento_Cms::slider_group.phtml" after="-"/>	
+        </referenceContainer>
+		<referenceContainer name="content">  
+			<block class="Magento\Cms\Block\Block" name="corporate" before="-">
+				<arguments>
+					<argument name="block_id" xsi:type="string">corporate</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="category_tab_top" after="corporate">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_top_genius4</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="static_top" after="category_tab_top">
+				<arguments>
+					<argument name="block_id" xsi:type="string">static_top_genius4</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="category_tab_middle" after="static_top">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_middle_genius4</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Cms\Block\Block" name="category_tab_bottom" after="category_tab_middle">
+				<arguments>
+					<argument name="block_id" xsi:type="string">category_tab_bottom_genius4</argument>
+				</arguments>
+			</block>
+			<block class="Plazathemes\Blog\Block\Sidebar\Recent" name="blog.sidebar.recent" after="newsletter_group"  template="sidebar/slider.phtml" />
+		</referenceContainer>
+		<referenceContainer name="sidebar.main">
+			<block class="Plazathemes\Pricecountdown\Block\Pricecountdown" ifconfig="pricecountdown/general/enabled" before="-" name="pricecountdown" template="saleslider.phtml" />
+			<block class="Plazathemes\Bestsellerproduct\Block\Bestsellerproduct" name="bestsellerproduct" after="pricecountdown" template="bestsellerproduct.phtml" />
+			<block class="Magento\Cms\Block\Block" name="banner_left" after="bestsellerproduct">
+				<arguments>
+					<argument name="block_id" xsi:type="string">banner_left</argument>
+				</arguments>
+			</block>
+			<block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" after="banner_left" template="subscribe.phtml"/>
+		</referenceContainer>
+		
+    </body>
+</page>

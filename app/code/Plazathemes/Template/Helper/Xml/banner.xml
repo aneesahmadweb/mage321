@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<title1>top sellers of week</title1>
+		<title2>Ipad mini AIr2</title2>
+		<click_url>#</click_url> 
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius1.jpg]]></image_alt>
+		<description>Last chance to buy extra 70% off</description>
+		<order>0</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>Samsung Level Over</title1>
+		<title2>headphone Hz1.2</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius1.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius1.jpg]]></image_alt>
+		<description>Last chance to buy extra 70% off</description>
+		<order>1</order>
+		<store_id>1</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>20% off</title1>
+		<title2>Smart phone</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius2.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius2.jpg]]></image_alt>
+		<description>Last chance to buy extra 70% off</description>
+		<order>0</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>70% off</title1>
+		<title2>Smart phone</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius2.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius2.jpg]]></image_alt>
+		<description>Last chance to buy extra 70% off</description>
+		<order>1</order>
+		<store_id>2</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		  <title1>Design</title1> 
+		  <title2>Funiture.</title2>
+		  <description>Last chance to buy extra 70% off</description>
+		  <click_url>#</click_url>
+		  <image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius3.jpg]]></image>
+		  <image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius3.jpg]]></image_alt>
+		  <order>0</order>
+		  <store_id>3</store_id> 
+		  <status>1</status> 
+	</record>
+	<record> 
+		  <title1>Design</title1> 
+		  <title2>Funiture.</title2>
+		  <description>Last chance to buy extra 70% off</description>
+		  <click_url>#</click_url>
+		  <image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius3.jpg]]></image>
+		  <image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius3.jpg]]></image_alt>
+		  <order>1</order>
+		  <store_id>3</store_id> 
+		  <status>1</status> 
+	</record>
+	
+	<record> 
+		<title1>Design</title1>
+		<title2>Funiture.</title2>
+		<description>Last chance to buy extra 70% off</description>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius4.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider1-genius4.jpg]]></image_alt>
+		<order>0</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<title1>Design</title1>
+		<title2>Funiture.</title2>
+		<description>Last chance to buy extra 70% off</description>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius4.jpg]]></image>
+		<image_alt><![CDATA[Plazathemes/bannerslider/images/s/l/slider2-genius4.jpg]]></image_alt>
+		<order>0</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+</records>
+</bannerslider>
